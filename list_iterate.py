@@ -1,9 +1,9 @@
 def print_list(list_input):
     for each in list_input:
         if isinstance(each, list):
-            print "we have a list"
+            print_list(each)
         else:
-            print "we have a item"
+            print each
 
 
 names = ["name", "list", "hello", ["name1", "name2"]]
