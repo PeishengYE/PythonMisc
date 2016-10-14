@@ -2,7 +2,7 @@ def print_list(list_input):
     for each in list_input:
         if isinstance(each, list):
             print "we have a list"
-        else
+        else:
             print "we have a item"
 
 
